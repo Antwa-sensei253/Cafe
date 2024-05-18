@@ -10,7 +10,7 @@ if (isset($_POST['login'])) {
     if ($user_data['password'] == $pass) {
       session_start();
       $_SESSION['username'] = $user;
-      header("Location: ../home.php");
+      header("Location: home.php");
     } else {
       echo 'there is an issue in login';
     }

@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body class="body">
     <div class="login-page">
-        <form class="form" action="signup.php" method="post">
+        <form class="form" action="index.php" method="post">
             <img src="./image/3127336.png" alt="Signup Image"/>
             <input type="text" name="username" placeholder="Username" required/>
             <input type="email" name="email" placeholder="Email Address" required />
