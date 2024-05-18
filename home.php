@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 ?>
 
@@ -10,8 +11,6 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,7 +24,7 @@ session_start();
         </nav>
         <span>
         <a href="#book" class="btn" style="margin-right: 3rem;">book a table</a>
-        <a href="coffee_shop_website/login-signup-form/login.php" class="btn"><?php  echo($_SESSION['name']); ?></a>
+        <a href="coffee_shop_website/login-signup-form/login.php" class="btn"><?php  echo($_SESSION['username']); ?></a>
     </span>
     </header>
     <section class="home" id="home">
@@ -142,8 +141,7 @@ session_start();
         </form>
     </section>
     <section class="footer">
-        <div class="credit">created by Ahmed Elsayed, Mohammed Yasser, Marwan sabry, Mina Amir, ahmed saad, ahmed
-                khalid</div>
+
     </section>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
