@@ -24,7 +24,13 @@ session_start();
         </nav>
         <span>
         <a href="#book" class="btn" style="margin-right: 3rem;">book a table</a>
-        <a href="coffee_shop_website/login-signup-form/login.php" class="btn"><?php  echo($_SESSION['username']); ?></a>
+        <a href="coffee_shop_website/login-signup-form/login.php" class="btn">
+        <?php  
+            if(isset($_SESSION['username']))
+        echo($_SESSION['username']);
+        echo('Guest');
+    
+    ?></a>
     </span>
     </header>
     <section class="home" id="home">
