@@ -39,36 +39,12 @@ session_start();
         </div>
     </section>
     <section class="about" id="about">
-        <h1 class="heading">about us <span>why choose us</span></h1>
-        <div class="row">
-            <div class="image">
-                <img src="image/about-img.png" alt="">
-            </div>
-            <div class="content">
-                <h3 class="title">what's make our coffee special!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore amet praesentium autem iure veniam, doloribus rerum quis vero minima quas ex asperiores assumenda totam, dicta nisi pariatur inventore a. Cupiditate.</p>
-                <a href="#" class="btn">read more</a>
-                <div class="icons-container">
-                    <div class="icons">
-                        <img src="image/about-icon-1.png" alt="">
-                        <h3>quality coffee</h3>
-                    </div>
-                    <div class="icons">
-                        <img src="image/about-icon-2.png" alt="">
-                        <h3>our branches</h3>
-                    </div>
-                    <div class="icons">
-                        <img src="image/about-icon-3.png" alt="">
-                        <h3>free delivery</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </section>
     <section class="menu" id="menu">
         <h1 class="heading">our menu</h1>
         <div class="box-container">
-            <img class="imagine" src="./image/ok.png" alt="">
+            <img class="imagine" style="height:1200px" src="./image/ok.png" alt="">
         </div>
     </section>
     <section>
@@ -87,7 +63,6 @@ session_start();
     </section>
 
     </section>
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>
